@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visa Appointment Booking</title>
+    <link rel="stylesheet" href="style.css"> <!-- Lien vers un fichier CSS externe -->
+    <style>
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/22"] {
+            background-color: var(--bs-success) !important;
+            margin: 1px !important;
+            opacity: 1 !important;
+            color: #fff !important;
+            height: 2.2em;
+            width: 2.2em;
+        }
+        /* Ajout des styles pour d'autres dates */
+        #vgcibfd_dateview .k-calendar a[data-value="2024/8/30"],
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/1"],
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/2"],
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/3"],
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/4"],
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/5"],
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/6"],
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/7"],
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/8"],
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/9"],
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/10"],
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/11"],
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/12"],
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/13"],
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/14"],
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/15"],
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/16"],
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/17"],
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/18"],
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/19"],
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/20"],
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/21"],
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/22"],
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/23"],
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/24"],
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/25"],
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/26"],
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/27"],
+        #vgcibfd_dateview .k-calendar a[data-value="2024/9/28"] {
+            /* Styles pour les autres dates du calendrier */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="bls-logo.png" alt="BLS International Logo" class="logo">
+            <h1>Apply for VISA to Spain in Morocco</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Book New Appointment</a></li>
+                    <li><a href="#">Manage Appointments</a></li>
+                    <li><a href="#">Travel Insurance</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="appointment-section">
+            <h2>Book New Appointment - Slot Selection</h2>
+            <div class="appointment-form">
+                <label for="appointment-date">Appointment Date *</label>
+                <input type="date" id="appointment-date" value="2024-10-22" required>
+                
+                <label for="appointment-slot">Appointment Slot *</label>
+                <select id="appointment-slot" required>
+                    <option value="">-- Select --</option>
+                    <option value="08:30-09:00">08:30-09:00</option>
+                    <option value="09:00-09:30">09:00-09:30</option>
+                </select>
+                
+                <p class="slot-info">
+                    <span class="available">Slot Available</span>
+                    <span class="booked">Slot Booked</span>
+                </p>
+            </div>
+
+            <div class="calendar">
+                <h3>October 2024</h3>
+                <div class="calendar-view">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Su</th><th>Mo</th><th>Tu</th><th>We</th><th>Th</th><th>Fr</th><th>Sa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>29</td><td>30</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td>
+                            </tr>
+                            <tr>
+                                <td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td>
+                            </tr>
+                            <tr>
+                                <td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td>
+                            </tr>
+                            <tr>
+                                <td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td>
+                            </tr>
+                            <tr>
+                                <td>27</td><td>28</td><td>29</td><td>30</td><td>31</td><td></td><td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="calendar-legend">
+                        <span class="legend available">Appointment Available</span>
+                        <span class="legend booked">No Slot Available</span>
+                        <span class="legend weekend">Weekend</span>
+                        <span class="legend holiday">Embassy/Public Holiday</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© BLS International 2024</p>
+    </footer>
+</body>
+</html>
